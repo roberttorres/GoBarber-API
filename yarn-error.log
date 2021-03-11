@@ -1,0 +1,64 @@
+Arguments: 
+  /home/robert/.nvm/versions/node/v12.16.1/bin/node /usr/share/yarn/bin/yarn.js add Nodemon -D
+
+PATH: 
+  /home/robert/.vscode-server/bin/ff915844119ce9485abfe8aa9076ec76b5300ddd/bin:/home/robert/.zinit/polaris/bin:/home/robert/.nvm/versions/node/v12.16.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu18.04onWindows_2020.1804.7.0_x64__79rhkp1fndgsc:/mnt/c/Python27/:/mnt/c/Python27/Scripts:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Intel/iCLS Client/:/mnt/c/Program Files/Intel/iCLS Client/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Samsung/SamsungLink/AllShare Framework DMS/bin/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/OpenVPN/bin:/mnt/c/Go/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Java/jdk1.8.0_191/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Users/Robert/Desktop/google-cloud-sdk/google-cloud-sdk/bin:/mnt/c/Program Files (x86)/Yarn/bin/:/mnt/c/Users/Robert/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Robert/go/bin:/mnt/c/Users/Robert/AppData/Roaming/npm:/mnt/c/Users/Robert/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Robert/AppData/Local/Yarn/bin:/mnt/c/Program Files/heroku/bin:/mnt/c/Program Files/Docker Toolbox
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.npmjs.org/Nodemon: Not found
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:66987:18)
+      at Request.self.callback (/usr/share/yarn/lib/cli.js:140748:22)
+      at Request.emit (events.js:311:20)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:141720:10)
+      at Request.emit (events.js:311:20)
+      at IncomingMessage.<anonymous> (/usr/share/yarn/lib/cli.js:141642:12)
+      at Object.onceWrapper (events.js:417:28)
+      at IncomingMessage.emit (events.js:323:22)
+      at endReadableNT (_stream_readable.js:1204:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "gobarber",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "dev": "nodemon src/server.js"
+    },
+    "dependencies": {
+      "bcryptjs": "^2.4.3",
+      "eslint-config-airbnb-base": "^14.1.0",
+      "express": "^4.17.1",
+      "jsonwebtoken": "^8.5.1",
+      "pg": "^8.0.0",
+      "pg-hstore": "^2.3.3",
+      "sequelize": "^5.21.6",
+      "yup": "^0.28.3"
+    },
+    "devDependencies": {
+      "eslint": "6.8.0",
+      "eslint-config-prettier": "^6.10.1",
+      "eslint-plugin-import": "^2.20.1",
+      "eslint-plugin-prettier": "^3.1.2",
+      "nodemon": "^2.0.2",
+      "prettier": "^2.0.2",
+      "sequelize-cli": "^5.5.1",
+      "sucrase": "^3.13.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
