@@ -60,7 +60,7 @@ Essa aplicação é responsável por possibilitar agendamentos de serviços entr
         PostBird (gerenciar DB)
     </li>  
     <li>
-        Linux 
+        Linux (ou Mac)
     </li> 
 </ul>
 
