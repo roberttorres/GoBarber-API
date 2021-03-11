@@ -85,7 +85,7 @@ Após o Docker estar devidamente instalado, rode os seguintes comandos no seu te
 3. Rode <code> yarn </code> para instalar todas as dependências
 4. Copie o arquivo <code> .env.example </code> e renomeie para <code> .env </code>
 5. Insira todos os valores para as variáveis de ambiente no <code> .env </code>
-6. Rode <code> yarn start </code> e <code> yarn queue </code> para iniciar a API no endereço <code> http://localhost:3000 </code>
+6. Rode <code> yarn dev </code> e <code> yarn queue </code> para iniciar a API no endereço <code> http://localhost:3000 </code>
 
 <h2> <img src = "https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" width = "22" height = "22" > Licença </h2>
 
