@@ -64,6 +64,29 @@ Essa aplicação é responsável por possibilitar agendamentos de serviços entr
     </li> 
 </ul>
 
+Após o Docker estar devidamente instalado, rode os seguintes comandos no seu terminal:
+
+<ul>
+    <li>
+      <code> docker run --name redisbarber -p 6379:6379 -d -t redis:alpine </code> ;
+    </li>    
+    <li>
+      <code> docker run --name mongobarber -p 27017:27017 -d -t mongo </code> ;
+    </li>  
+    <li>
+        <code> docker run --name pgbarber -e POSTGRES_PASSWORD=docker -p 5433:5432 -d postgres </code> ;
+    </li> 
+</ul>
+
+<h2> Instalação </h2>
+
+1. Abra seu terminal em uma pasta qualquer e clone este repositório <code> https://github.com/roberttorres/GoBarber-API.git </code>
+2. Navegue até o diretório do servidor: <code> cd backend </code>
+3. Rode <code> yarn </code> para instalar todas as dependências
+4. Copie o arquivo <code> .env.example </code> e renomeie para <code> .env </code>
+5. Insira todos os valores para as variáveis de ambiente no <code> .env </code>
+6. Rode <code> yarn start </code> e <code> yarn queue </code> para iniciar a API no endereço <code> http://localhost:3000 </code>
+
 <h2> <img src = "https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" width = "22" height = "22" > Licença </h2>
 
 Esse projeto se encontra sob a licença <b> MIT. </b> Acesse o arquivo <a href="/LICENSE"> LICENSE </a> para mais detalhes.
