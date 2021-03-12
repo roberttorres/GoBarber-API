@@ -81,7 +81,7 @@ Após o Docker estar devidamente instalado, rode os seguintes comandos no seu te
 <h2> Instalação </h2>
 
 1. Abra seu terminal em uma pasta qualquer e clone este repositório <code> https://github.com/roberttorres/GoBarber-API.git </code>
-2. Navegue até o diretório do servidor: <code> cd backend </code>
+2. Navegue até o diretório que vc nomeou a API: <code> cd [nome_do_diretorio] </code>
 3. Rode <code> yarn </code> para instalar todas as dependências
 4. Copie o arquivo <code> .env.example </code> e renomeie para <code> .env </code>
 5. Insira todos os valores para as variáveis de ambiente no <code> .env </code>
